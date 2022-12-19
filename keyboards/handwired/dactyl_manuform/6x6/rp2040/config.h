@@ -18,16 +18,13 @@
 
 #include "config_common.h"
 
-// wiring of each half
 #define MATRIX_COL_PINS { GP15, GP14, GP13, GP12, GP11, GP10 }
 #define MATRIX_ROW_PINS { GP22, GP21, GP20, GP19, GP18, GP17, GP16 }
 #define MATRIX_COL_PINS_RIGHT { GP10, GP11, GP12, GP13, GP14, GP15 }
 
 #define DIODE_DIRECTION COL2ROW
 
-// #define MASTER_LEFT
-#define RP2040_BOOTLOADER_DOUBLE_TAP_RESET // Activates the double-tap behavior
-#define RP2040_BOOTLOADER_DOUBLE_TAP_RESET_TIMEOUT 200U // Timeout window in ms in which the double tap can occur.
-
 #undef SOFT_SERIAL_PIN
 #define SOFT_SERIAL_PIN GP0
+#define SERIAL_USART_FULL_DUPLEX
+#define SERIAL_USART_RX_PIN GP1
