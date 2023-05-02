@@ -9,8 +9,8 @@ enum custom_layers {
     _RAISE,
 };
 
-#define RAISE LT(_RAISE, KC_SPC)
-#define LOWER LT(_LOWER, KC_ENT)
+#define RAISE MO(_RAISE)
+#define LOWER MO(_LOWER)
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [_QWERTY] = LAYOUT_6x6_5_thumb(
@@ -21,8 +21,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_LCTL,KC_Z   ,KC_X   ,KC_C   ,KC_V   ,KC_B   ,                        KC_N   ,KC_M   ,KC_COMM,KC_DOT ,KC_SLSH,KC_BSLS,
                         KC_LBRC,KC_RBRC,                                                        KC_PLUS,KC_EQL ,
                                         RAISE  ,                                        LOWER  ,
-                                                KC_TAB ,KC_HOME,       KC_END  ,KC_DEL,
-                                                KC_BSPC,KC_GRV ,       KC_LGUI ,KC_LALT
+                                                KC_SPC ,KC_HOME,       KC_END  ,KC_ENT,
+                                                KC_BSPC,KC_GRV ,       KC_LALT, KC_LGUI
     ),
 
     [_LOWER] = LAYOUT_6x6_5_thumb(
@@ -39,9 +39,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
     [_RAISE] = LAYOUT_6x6_5_thumb(
         KC_F12 ,KC_F1  ,KC_F2  ,KC_F3  ,KC_F4  ,KC_F5  ,                        KC_F6  ,KC_F7  ,KC_F8  ,KC_F9  ,KC_F10 ,KC_F11 ,
-        _______,_______,_______,_______,_______,KC_LBRC,                        KC_RBRC,_______,KC_NUM ,KC_INS ,KC_SCRL,KC_MUTE,
-        _______,KC_LEFT,KC_UP  ,KC_DOWN,KC_RGHT,KC_LPRN,                        KC_RPRN,KC_MPRV,KC_MPLY,KC_MNXT,_______,KC_VOLU,
-        _______,_______,_______,_______,_______,_______,                        _______,_______,_______,_______,_______,KC_VOLD,
+        _______,_______,_______,_______,_______,_______,                        KC_RBRC,_______,KC_NUM ,KC_INS ,KC_SCRL,KC_MUTE,
+        _______,_______,_______,_______,_______,KC_LBRC,                        KC_RPRN,KC_MPRV,KC_MPLY,KC_MNXT,_______,KC_VOLU,
+        _______,KC_LEFT,KC_UP  ,KC_DOWN,KC_RGHT,KC_LPRN,                        _______,_______,_______,_______,_______,KC_VOLD,
         _______,_______,_______,_______,_______,_______,                        _______,_______,_______,_______,_______,_______,
                         _______,_______,                                                        KC_EQL ,_______,
                                         _______,                                        _______,
