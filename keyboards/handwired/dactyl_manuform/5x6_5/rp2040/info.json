@@ -16,6 +16,14 @@
         "cols": ["G10", "G11", "G12", "G13", "G14", "G15"],
         "rows": ["G16", "G17", "G18", "G19", "G19", "G20", "G21", "G22"]
     },
+    "split": {
+        "enabled": true
+        "main": "eeprom",
+        "soft_serial_pin": "GP1",
+        "transport": {
+            "protocol": "serial"
+        }
+    },
     "processor": "RP2040",
     "url": "",
     "usb": {
