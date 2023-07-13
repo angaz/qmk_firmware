@@ -64,7 +64,7 @@
             "KC_MINS",
             "KC_EQL",
 
-            "TT(1)",
+            "MO(1)",
             "KC_SPC",
             "KC_HOME",
             "KC_END",
@@ -90,11 +90,11 @@
             "KC_F11",
             "KC_F12",
 
-            "KC_TRNS",
-            "KC_LEFT",
-            "KC_UP",
-            "KC_DOWN",
-            "KC_RIGHT",
+            "KC_NO",
+            "KC_NO",
+            "KC_NO",
+            "KC_NO",
+            "KC_NO",
             "KC_NO",
             "KC_NO",
             "KC_7",
@@ -103,20 +103,20 @@
             "KC_PPLS",
             "KC_TRNS",
 
-            "KC_NO",
-            "KC_NO",
-            "KC_NO",
-            "KC_NO",
-            "KC_NO",
+            "KC_TRNS",
+            "KC_LEFT",
+            "KC_UP",
+            "KC_DOWN",
+            "KC_RIGHT",
             "KC_NO",
             "KC_NO",
             "KC_4",
             "KC_5",
             "KC_6",
-            "KC_PNMS",
+            "KC_PMNS",
             "KC_NO",
 
-            "SC_NO",
+            "KC_NO",
             "KC_NO",
             "KC_NO",
             "KC_NO",
@@ -141,8 +141,8 @@
             "KC_TRNS",
             "KC_TRNS",
 
-            "KC_BOOT",
-            "KC_PWR",
+            "QK_BOOT",
+            "QK_REBOOT",
             "KC_NO",
             "KC_NO"
         ],
@@ -186,7 +186,7 @@
             "KC_NO",
             "KC_VOLD",
 
-            "SC_NO",
+            "KC_NO",
             "KC_NO",
             "KC_NO",
             "KC_NO",
@@ -204,17 +204,17 @@
             "KC_NO",
             "KC_NO",
 
-            "KC_NO",
-            "KC_NO",
-            "KC_NO",
-            "KC_NO",
-            "KC_NO",
-            "KC_NO",
+            "KC_TRNS",
+            "KC_TRNS",
+            "KC_TRNS",
+            "KC_TRNS",
+            "KC_TRNS",
+            "KC_TRNS",
 
             "KC_NO",
             "KC_NO",
-            "KC_PWR",
-            "KC_BOOT"
+            "QK_REBOOT",
+            "QK_BOOT"
         ]
     ]
 }
