@@ -4,6 +4,14 @@
     "maintainer": "angaz",
     "bootloader": "rp2040",
     "diode_direction": "COL2ROW",
+    "features": {
+        "bootmagic": true,
+        "command": false,
+        "console": false,
+        "extrakey": true,
+        "mousekey": true,
+        "nkro": true
+    },
     "matrix_pins": {
         "cols": ["GP10", "GP11", "GP12", "GP13", "GP14", "GP15"],
         "rows": ["GP16", "GP17", "GP18", "GP19", "GP20", "GP21", "GP22"]
