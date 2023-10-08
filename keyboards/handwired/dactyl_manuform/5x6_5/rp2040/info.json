@@ -20,7 +20,8 @@
         "enabled": true
         "soft_serial_pin": "GP0",
         "transport": {
-            "protocol": "serial"
+            "protocol": "serial",
+            "watchdog": true
         }
     },
     "processor": "RP2040",
