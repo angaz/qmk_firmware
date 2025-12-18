@@ -19,7 +19,6 @@
             "KC_9",
             "KC_0",
             "KC_BSPC",
-
             "KC_TAB",
             "KC_Q",
             "KC_W",
@@ -32,7 +31,6 @@
             "KC_O",
             "KC_P",
             "KC_MINS",
-
             "LSFT_T(KC_ESC)",
             "KC_A",
             "KC_S",
@@ -45,7 +43,6 @@
             "KC_L",
             "KC_SCLN",
             "KC_QUOT",
-
             "KC_LCTL",
             "KC_Z",
             "KC_X",
@@ -58,19 +55,16 @@
             "KC_DOT",
             "KC_SLSH",
             "KC_BSLS",
-
             "KC_LBRC",
             "KC_RBRC",
             "KC_MINS",
             "KC_EQL",
-
             "MO(1)",
             "KC_SPC",
             "KC_HOME",
             "KC_END",
             "KC_ENT",
             "LT(2, KC_BSPC)",
-
             "KC_BSPC",
             "KC_LALT",
             "KC_RALT",
@@ -89,12 +83,11 @@
             "KC_F10",
             "KC_F11",
             "KC_F12",
-
+            "KC_NO",
+            "KC_PAGE_DOWN",
             "KC_NO",
             "KC_NO",
-            "KC_NO",
-            "KC_NO",
-            "KC_NO",
+            "KC_PAGE_UP",
             "KC_NO",
             "KC_NO",
             "KC_7",
@@ -102,7 +95,6 @@
             "KC_9",
             "KC_PPLS",
             "KC_TRNS",
-
             "KC_TRNS",
             "KC_LEFT",
             "KC_UP",
@@ -115,7 +107,6 @@
             "KC_6",
             "KC_PMNS",
             "KC_NO",
-
             "KC_NO",
             "KC_NO",
             "KC_NO",
@@ -128,19 +119,16 @@
             "KC_3",
             "KC_PEQL",
             "KC_NO",
-
             "KC_TRNS",
             "KC_TRNS",
             "KC_0",
             "KC_PDOT",
-
             "KC_TRNS",
             "KC_TRNS",
             "KC_TRNS",
             "KC_TRNS",
             "KC_TRNS",
             "KC_TRNS",
-
             "QK_BOOT",
             "QK_REBOOT",
             "KC_NO",
@@ -159,7 +147,6 @@
             "KC_F10",
             "KC_F11",
             "KC_F12",
-
             "KC_NO",
             "KC_NO",
             "KC_NO",
@@ -172,7 +159,6 @@
             "KC_9",
             "KC_PPLS",
             "KC_VOLU",
-
             "KC_NO",
             "KC_NO",
             "KC_NO",
@@ -185,7 +171,6 @@
             "KC_6",
             "KC_PMNS",
             "KC_VOLD",
-
             "KC_NO",
             "KC_NO",
             "KC_NO",
@@ -198,19 +183,16 @@
             "KC_3",
             "KC_PEQL",
             "KC_MUTE",
-
             "KC_NO",
             "KC_NO",
             "KC_0",
             "KC_NO",
-
             "KC_TRNS",
             "KC_TRNS",
             "KC_TRNS",
             "KC_TRNS",
             "KC_TRNS",
             "KC_TRNS",
-
             "KC_NO",
             "KC_NO",
             "QK_REBOOT",
